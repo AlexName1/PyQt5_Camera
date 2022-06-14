@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>732</width>
+    <height>494</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>window_camera</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>242</y>
+      <width>246</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Введите проектное поперечное перекрытие, %</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>197</y>
+      <width>253</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Введите проектное продольнное перекрытие, %</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="camera_simulator">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>Camera Simulator</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_mapir_survey_3_n">
+    <property name="geometry">
+     <rect>
+      <x>172</x>
+      <y>104</y>
+      <width>129</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mapir Survey 3 N RGN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_result">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>430</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Рассчитать</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_PA">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>81</y>
+      <width>135</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DJI Phantom Advanced</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>152</y>
+      <width>306</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Введите проектное пространственное разрешение, см/пикс</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_MP">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>104</y>
+      <width>88</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DJI Mavic Pro</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>171</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_mapir_survey_3_w">
+    <property name="geometry">
+     <rect>
+      <x>172</x>
+      <y>81</y>
+      <width>132</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mapir Survey 3 W RGN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>332</y>
+      <width>397</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Введите установленную скорость съемки в настройках внешней камеры, сек</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>287</y>
+      <width>364</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Введите установленное в настройках внешней камеры ISO в единицах</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>377</y>
+      <width>381</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Введите предполагаемый интервал съемки в настройках внешней камеры</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>216</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>261</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>306</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>351</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>396</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="text_result">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>150</y>
+      <width>256</width>
+      <height>261</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
